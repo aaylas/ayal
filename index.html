@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jogo do Coração</title>
+  <title>Jogo do CoraÃ§Ã£o</title>
   <style>
     body {
       margin: 0;
@@ -64,5 +64,15 @@
   </style>
 </head>
 <body>
-  <!-- coração com alt -->
-  <div class="heart" id="heart" alt="Coração vermelho">
+  <!-- coraÃ§Ã£o com alt -->
+  <div class="heart" id="heart" alt="CoraÃ§Ã£o vermelho"></div>
+  <div class="message">Te adoro, Alinho :) &lt;3</div>
+
+  <script>
+    const heart = document.getElementById('heart');
+    heart.addEventListener('click', () => {
+      document.body.classList.add('active');
+    });
+  </script>
+</body>
+</html>
